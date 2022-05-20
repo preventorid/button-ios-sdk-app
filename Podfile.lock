@@ -1,0 +1,28 @@
+PODS:
+  - DocumentReader (6.1.2358):
+    - RegulaCommon (= 6.1.102)
+  - DocumentReaderFullRFID (6.1.5791)
+  - PreventorSDK (1.1.0):
+    - DocumentReader (= 6.1.2358)
+    - DocumentReaderFullRFID (= 6.1.5791)
+  - RegulaCommon (6.1.102)
+
+DEPENDENCIES:
+  - PreventorSDK
+
+SPEC REPOS:
+  trunk:
+    - DocumentReader
+    - DocumentReaderFullRFID
+    - PreventorSDK
+    - RegulaCommon
+
+SPEC CHECKSUMS:
+  DocumentReader: 89b3ef46fcde4efe8af18e97f31095aca424c738
+  DocumentReaderFullRFID: a96664574b1cb6eaf5aae168e69f7989baeff9a1
+  PreventorSDK: 5b9eafe02477ef20a4c31676b0ead04164d32e16
+  RegulaCommon: a44219e46c71bb34bbb04ee3fcc6b8dcff85813a
+
+PODFILE CHECKSUM: 526b3c89d0b8b6d4e3c235ee7479739935a50bf2
+
+COCOAPODS: 1.11.2
