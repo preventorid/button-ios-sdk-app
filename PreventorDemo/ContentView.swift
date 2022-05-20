@@ -58,11 +58,11 @@ struct ContentView: View, PSDKDelegate {
     
     init() {
         self.config = PSDKConfig(flowID: .default,
-                                 apiKey: "l3Zg6JhInlaEvO2wtgVYQ2tCYU3hKgGe8uIIxWRD",
-                                 tenant: "preventor",
-                                 env: "playground",
-                                 banknu: "6",
-                                 secret: "c00fc92f740eb0fbb5fa00955e6494b62f442d770fe736f56a51e7af369f570f")
+                                 apiKey: "",
+                                 tenant: "",
+                                 env: "",
+                                 banknu: "",
+                                 secret: "")
         PSDK.shared.callBack(delegate: self)
     }
     
